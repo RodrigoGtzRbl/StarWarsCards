@@ -204,6 +204,7 @@ $(document).ready(function () {
         // Set the click function to the button to show the info
         $('#selectCard').click(function () {
             let charName = $('.active').attr('id').split('Card')[0]; //Extract the name from de id attribute
+
             charName = charName.replace(" ", " ");
 
             let selectedCharacter = charactersData.characters.find(character => character.name.replace(" ", "") === charName);
