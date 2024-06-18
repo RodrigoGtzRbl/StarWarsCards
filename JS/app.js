@@ -15,7 +15,7 @@ $(document).ready(function () {
 
             <div class="row my-5 mx-0">
                 <div class="col-12">
-                    <h1 class="fs-1 text-center">Select one card:</h1>
+                    <h2 class="fs-1 text-center">Select one card:</h2>
                 </div>
             </div>
 
