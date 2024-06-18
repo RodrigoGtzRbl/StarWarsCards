@@ -178,7 +178,7 @@ $(document).ready(function () {
                         "birth year": character.birth_year,
                         "gender": character.gender,
                         "homeworld": homeworldName,
-                        "appears in": filmsTitles
+                        "films where appears": filmsTitles
                     });
                 },
                 error: function (xhr, status, error) {
