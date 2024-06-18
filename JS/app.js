@@ -57,6 +57,10 @@ $(document).ready(function () {
             <source src="./media/audio/cantinaSong.ogg" type="audio/webm">
             Your browser does not support the audio element.
         </audio>
+        <audio id="cantinaSong"> 
+            <source src="./media/audio/yodaSong.mp3" type="audio/webm">
+            Your browser does not support the audio element.
+        </audio>
     `);
     for (let i = 0; i < names.length; i++) {
         let name = names[i].replace(' ', '');
