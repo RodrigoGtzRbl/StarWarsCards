@@ -229,6 +229,8 @@ $(document).ready(function () {
             if (audio.paused) {
                 audio.play();
             }
+            
+            document.getElementById('infoRow').scrollIntoView({ behavior: 'smooth' });
         });
     }
 
@@ -262,7 +264,7 @@ $(document).ready(function () {
         let percentage = (width / totalWidth) * 100;
 
         if (percentage <= 99) {
-            let newWidth = percentage + 15;
+            let newWidth = percentage + 10;
             $('#progressBar').css('width', `${newWidth}%`);
             $('#progressBar').empty();
 
